@@ -1,0 +1,17 @@
+{
+  "name": "gm-heritage-records",
+  "version": "1.0.0",
+  "description": "GM Vehicle Records Service website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve ."
+  },
+  "keywords": [
+    "GM",
+    "heritage",
+    "vehicle",
+    "records"
+  ],
+  "author": "",
+  "license": "ISC"
+}
