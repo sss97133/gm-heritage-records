@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | GM Vehicle Records Request</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        
+        .thank-you-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        
+        h1 {
+            color: #d22730;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .confirmation-number {
+            font-size: 1.2rem;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        
+        .next-steps {
+            margin-top: 30px;
+            text-align: left;
+        }
+        
+        .next-steps h2 {
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: #d22730;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #b01c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <h1>Thank You for Your Request!</h1>
+        
+        <p>Your GM Vehicle Records request has been successfully submitted and your payment has been processed.</p>
+        
+        <div class="confirmation-number">
+            Confirmation #: <span id="confirmation-id">GM-<script>document.write(Date.now().toString().substr(-8))</script></span>
+        </div>
+        
+        <p>We have sent a confirmation email to your provided email address with all the details of your request.</p>
+        
+        <div class="next-steps">
+            <h2>What Happens Next:</h2>
+            <ol>
+                <li>Your request will be forwarded to the GM Heritage team for processing.</li>
+                <li>Research will be conducted to locate your vehicle's records (typically takes 10-15 business days).</li>
+                <li>Once your records are found, they will be sent to you via email.</li>
+                <li>If additional information is needed, we will contact you directly.</li>
+            </ol>
+        </div>
+        
+        <a href="index.html" class="button">Return to Home</a>
+    </div>
+</body>
+</html>
